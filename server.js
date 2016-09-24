@@ -22,7 +22,7 @@ This is the content of my first article.This is the content of my first article.
 </p>`
 },
 `article-two` :{
-    title:'Article Two | Kishan Tiwari',
+    title:'Article Two |Tiwari',
 heading:'Article Two',
 date:'Sep 24,2016',
 content:
@@ -30,12 +30,13 @@ content:
 This is the content of my Second article.This is the content of my Second article.</p>`
 },
 `article-three`: {
-title:'Article Three | Kishan Tiwari',
+title:'Article Three | Tiwari Kishan',
 heading:'Article Three',
 date:'Sep 23,2016',
 content:`<p>
 This is the content of my Third article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.This is the content of my first article.
-</p>`}
+</p>`
+}
 };
 function createTemplate(data){
     var title = data.title;
