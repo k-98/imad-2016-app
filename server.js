@@ -18,7 +18,7 @@ This is the content of my first article.This is the content of my first article.
 
 },
 'article-two' :{
-    title:'Article Two |Tiwari',
+title:'Article Two |Tiwari',
 heading:'Article Two',
 date:'Sep 24,2016',
 content:
