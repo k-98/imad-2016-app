@@ -18,7 +18,7 @@ This is the content of my first article.This is the content of my first article.
 
 },
 'article-two' :{
-title:'Article Two |Tiwari',
+title:'Article Two |Kishan Tiwari',
 heading:'Article Two',
 date:'Sep 24,2016',
 content:
@@ -26,7 +26,7 @@ content:
 This is the content of my Second article.This is the content of my Second article.</p>`
 },
 'article-three': {
-title:'Article Three | Tiwari Kishan',
+title:'Article Three | Kishan Tiwari',
 heading:'Article Three',
 date:'Sep 23,2016',
 content:`<p>
