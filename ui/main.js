@@ -23,7 +23,8 @@ button.onclick = function() {
 
 //Submit name 
 var submit = document.getElementById('submit_btn');
-submit.onclick = function(){
+submit.onclick = function()
+{
     //create request
     var request = new XMLHttpRequest();
     
@@ -42,11 +43,11 @@ submit.onclick = function(){
             
         }
     }
+
     //make the request to the server and send the name to
      var nameInput = document.getElementById('name');
      var name=nameInput.value;
      request.open('GET', 'http://k-98.imad.hasura-app.io/submit-name?name='+name,true);
      request.send(null);
     //capture a name and render it  as list
- 
 };
