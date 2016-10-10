@@ -88,7 +88,7 @@ app.get('/submit-name',function(req,res){//URL
    names.push(name);
    //JSON :
    res.send(JSON.stringify(names));
-   res.send(names);  //TODO
+   //res.send(names);  //TODO
 });
 
 app.get('/:articleName',function(req,res){
