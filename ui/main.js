@@ -22,11 +22,11 @@ button.onclick = function() {
 };
 
 //Submit name 
-
 var submit = document.getElementById('submit_btn');
 submit.onclick = function(){
     //create request
     var request = new XMLHttpRequest();
+    
     if(request.readyState===XMLHttpRequest.DONE){
         //takesome action
         if(request.status===200){
