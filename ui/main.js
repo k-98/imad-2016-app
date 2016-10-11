@@ -23,11 +23,11 @@ button.onclick = function() {
 
 //Submit name 
 var submit = document.getElementById('submit_btn');
-submit.onclick = function()
-{
-    //create request
-    var request = new XMLHttpRequest();
+submit.onclick = function(){
     
+    //create request object
+    var request = new XMLHttpRequest();
+    request.onreadystatechange = function(){
     if(request.readyState===XMLHttpRequest.DONE){
         //takesome action
         if(request.status===200){
@@ -43,7 +43,7 @@ submit.onclick = function()
             
         }
     }
-
+};
     //make the request to the server and send the name to
      var nameInput = document.getElementById('name');
      var name=nameInput.value;
